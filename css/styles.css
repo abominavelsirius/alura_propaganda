@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+
+
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030c;
+
+    --fonte-principal: 'Inter';
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 * {
@@ -20,6 +30,9 @@ body {
 
 .container {
     height: 100vh;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+
 }
 
 .principal {
@@ -28,3 +41,31 @@ body {
     background-size: contain; /* vai pegar toda a div pai, no caso a section */
 }
 
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
