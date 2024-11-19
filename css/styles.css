@@ -18,7 +18,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .descricao__titulo {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--branco-principal);
 }
 
